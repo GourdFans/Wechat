@@ -1,7 +1,7 @@
 package com.scyllakeeper.wechat.gift.api;
 
 import com.scyllakeeper.wechat.gift.dto.AddressDTO;
-import com.scyllakeeper.wechat.gift.utils.DataResult;
+import com.scyllakeeper.wechat.gift.utils.result.DataResult;
 
 /**
  * Created by zhuozi on 17/6/3.

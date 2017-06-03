@@ -1,11 +1,13 @@
-package com.scyllakeeper.wechat.gift.utils;
+package com.scyllakeeper.wechat.gift.utils.result;
+
+import com.scyllakeeper.wechat.gift.utils.result.Result;
 
 /**
  * Created by zhuozi on 17/6/3.
  */
 public class DataResult<T> extends Result {
 
-    T value;
+    private T value;
 
     public T getValue() {
         return value;

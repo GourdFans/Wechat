@@ -1,29 +1,36 @@
 package com.scyllakeeper.wechat.gift.dto;
-
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
-
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
  * Created by zhuozi on 17/6/3.
  */
-@Getter
-@Setter
-@ToString
+
 public class AddressDTO implements Serializable{
 
     private static final long serialVersionUID = 6118766680561688541L;
 
-    private String name;
-
+    /**
+     * 收获地址
+     */
     private String address;
 
-    private String accountId;
+    /**
+     * 微信号码
+     */
+    private String account;
 
+    /**
+     * 收件人姓名
+     */
+    private String name;
+
+    /**
+     * 电话号码
+     */
     private String mobile;
 
-    private boolean payed;
+    /**
+     * 电话验证码
+     */
+    private String token;
 }
